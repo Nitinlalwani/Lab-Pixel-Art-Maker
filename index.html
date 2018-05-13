@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Art Maker!</title>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>NiTiNs:<br><br>pIxEl ArT mAkEr</h1>
+
+    <p>CHOOSE GRID SIZE</p>
+    <form id="sizePicker">
+        h e i g h t :
+        <input type="number" id="input_height" name="height" min="1" value="10" required>
+        w i d t h :
+        <input type="number" id="input_width" name="width" min="1" value="10" required>
+        <input class="round
+                      " type="submit">
+    </form>
+
+    <p>PICK A COLOR</p>
+    <input type="color" id="colorPicker">
+
+    <p>DESIGN CANVAS</p>
+    <table id="pixel_canvas"></table>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
